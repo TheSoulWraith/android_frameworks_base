@@ -463,10 +463,8 @@ static JNINativeMethod gSurfaceMethods[] = {
             (void*)nativeReadFromParcel },
     {"nativeWriteToParcel", "(JLandroid/os/Parcel;)V",
             (void*)nativeWriteToParcel },
-<<<<<<< HEAD
     {"nativeSetDirtyRect", "(JLandroid/graphics/Rect;)V",
            (void*)nativeSetDirtyRect },
-=======
     {"nativeGetWidth", "(J)I", (void*)nativeGetWidth },
     {"nativeGetHeight", "(J)I", (void*)nativeGetHeight },
 
@@ -475,7 +473,6 @@ static JNINativeMethod gSurfaceMethods[] = {
     {"nHwuiSetSurface", "(JJ)V", (void*) hwui::setSurface },
     {"nHwuiDraw", "(J)V", (void*) hwui::draw },
     {"nHwuiDestroy", "(J)V", (void*) hwui::destroy },
->>>>>>> tags/android-5.1.0_r1
 };
 
 int register_android_view_Surface(JNIEnv* env)

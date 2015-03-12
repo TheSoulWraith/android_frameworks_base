@@ -165,6 +165,14 @@ interface ISub {
 
     int[] getActiveSubIdList();
 
+    boolean isSMSPromptEnabled();
+
+    void setSMSPromptEnabled(boolean enabled);
+
+    boolean isVoicePromptEnabled();
+
+    void setVoicePromptEnabled(boolean enabled);
+
     /**
      * Get the SIM state for the subscriber
      * @return SIM state as the ordinal of IccCardConstants.State

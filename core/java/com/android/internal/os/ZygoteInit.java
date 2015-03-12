@@ -363,7 +363,8 @@ public class ZygoteInit {
                     }
                     throw new RuntimeException(t);
                 }
-
+			}
+				System.gc();
                 Log.i(TAG, "...preloaded " + count + " classes in "
                         + (SystemClock.uptimeMillis()-startTime) + "ms.");
             } catch (IOException e) {

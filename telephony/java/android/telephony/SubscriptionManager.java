@@ -32,11 +32,8 @@ import com.android.internal.telephony.ISub;
 import com.android.internal.telephony.IOnSubscriptionsChangedListener;
 import com.android.internal.telephony.ITelephonyRegistry;
 import com.android.internal.telephony.PhoneConstants;
-<<<<<<< HEAD
 import com.android.internal.telephony.RILConstants;
-=======
 import com.android.internal.telephony.TelephonyProperties;
->>>>>>> tags/android-5.1.0_r1
 
 import java.util.ArrayList;
 import java.util.List;
@@ -1175,7 +1172,6 @@ public class SubscriptionManager {
 
     }
 
-<<<<<<< HEAD
     public static boolean isVoicePromptEnabled() {
         try {
             ISub iSub = ISub.Stub.asInterface(ServiceManager.getService("isub"));
@@ -1205,12 +1201,13 @@ public class SubscriptionManager {
             if (iSub != null) {
                 return iSub.getOnDemandDataSubId();
             } else {
-                return INVALID_SUB_ID;
+                return INVALID_SUBSCRIPTION_ID;
             }
         } catch (RemoteException ex) {
-            return INVALID_SUB_ID;
+            return INVALID_SUBSCRIPTION_ID;
         }
-=======
+	}
+		
     /**
      * Returns true if the device is considered roaming on the current
      * network for a subscription.
@@ -1257,7 +1254,6 @@ public class SubscriptionManager {
         }
         logd("getSimStateForSubscriber: simState=" + simState + " subId=" + subId);
         return simState;
->>>>>>> tags/android-5.1.0_r1
-    }
-}
+		}
+	}
 

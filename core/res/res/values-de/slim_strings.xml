@@ -35,12 +35,6 @@
   <string name="tethered_notification_one_device_message"><xliff:g id="count">%1$s</xliff:g> verbundenes Gerät</string>
   <string name="tethered_notification_multi_device_message"><xliff:g id="count">%1$s</xliff:g> verbundene Geräte</string>
   <string name="storage_uicc">UICC-Speicher</string>
-  <string name="stk_cc_ussd_to_dial">USSD-Anfrage wird in DIAL-Anfrage umgewandelt.</string>
-  <string name="stk_cc_ussd_to_ss">USSD-Anfrage wird in SS-Anfrage umgewandelt.</string>
-  <string name="stk_cc_ussd_to_ussd">USSD-Anfrage wird in neue USSD-Anfrage umgewandelt.</string>
-  <string name="stk_cc_ss_to_dial">SS-Anfrage wird in DIAL-Anfrage umgewandelt.</string>
-  <string name="stk_cc_ss_to_ussd">SS-Anfrage wird in USSD-Anfrage umgewandelt.</string>
-  <string name="stk_cc_ss_to_ss">SS-Anfrage wird in neue SS-Anfrage umgewandelt.</string>
   <string name="reboot_system" product="tablet">Tablet neu starten</string>
   <string name="reboot_system" product="default">Telefon neu starten</string>
   <string name="reboot_reboot">Neustart</string>

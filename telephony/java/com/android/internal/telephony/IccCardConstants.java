@@ -70,7 +70,7 @@ public class IccCardConstants {
         ABSENT,         /** ordinal(1) == {@See TelephonyManager#SIM_STATE_ABSENT} */
         PIN_REQUIRED,   /** ordinal(2) == {@See TelephonyManager#SIM_STATE_PIN_REQUIRED} */
         PUK_REQUIRED,   /** ordinal(3) == {@See TelephonyManager#SIM_STATE_PUK_REQUIRED} */
-        NETWORK_LOCKED, /** ordinal(4) == {@See TelephonyManager#SIM_STATE_NETWORK_LOCKED} */
+        PERSO_LOCKED,   /** ordinal(4) == {@See TelephonyManager#SIM_STATE_PERSO_LOCKED} */
         READY,          /** ordinal(5) == {@See TelephonyManager#SIM_STATE_READY} */
         NOT_READY,      /** ordinal(6) == {@See TelephonyManager#SIM_STATE_NOT_READY} */
         PERM_DISABLED,  /** ordinal(7) == {@See TelephonyManager#SIM_STATE_PERM_DISABLED} */
@@ -92,7 +92,7 @@ public class IccCardConstants {
                 case 1: return ABSENT;
                 case 2: return PIN_REQUIRED;
                 case 3: return PUK_REQUIRED;
-                case 4: return NETWORK_LOCKED;
+                case 4: return PERSO_LOCKED;
                 case 5: return READY;
                 case 6: return NOT_READY;
                 case 7: return PERM_DISABLED;

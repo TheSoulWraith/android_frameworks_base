@@ -34,12 +34,6 @@
   <string name="tethered_notification_one_device_message"><xliff:g id="count">%1$s</xliff:g> připojené zařízení</string>
   <string name="tethered_notification_multi_device_message"><xliff:g id="count">%1$s</xliff:g> připojená zařízení</string>
   <string name="storage_uicc">Úložiště UICC</string>
-  <string name="stk_cc_ussd_to_dial">Požadavek USSD byl změněn na požadavek DIAL.</string>
-  <string name="stk_cc_ussd_to_ss">Požadavek USSD byl změněn na požadavek SS.</string>
-  <string name="stk_cc_ussd_to_ussd">Požadavek USSD byl změněn na nový požadavek USSD.</string>
-  <string name="stk_cc_ss_to_dial">Požadavek SS byl změněn na požadavek DIAL.</string>
-  <string name="stk_cc_ss_to_ussd">Požadavek SS byl změněn na požadavek USSD.</string>
-  <string name="stk_cc_ss_to_ss">Požadavek SS byl změněn na nový požadavek SS.</string>
   <string name="reboot_system" product="tablet">Restartovat tablet</string>
   <string name="reboot_system" product="default">Restartovat telefon</string>
   <string name="reboot_reboot">Restartovat</string>

@@ -148,7 +148,7 @@ public class DisconnectCause {
      *
      * {@hide}
      */
-    public static final int EXITED_ECM                     = 42;
+    public static final int EXITED_ECM = 42;
 
     /**
      * The outgoing call failed with an unknown cause.
@@ -161,20 +161,15 @@ public class DisconnectCause {
     public static final int OUTGOING_CANCELED = 44;
 
     /**
-     * The call, which was an IMS call, disconnected because it merged with another call.
-     */
-    public static final int IMS_MERGED_SUCCESSFULLY = 45;
-
-    /**
      * Stk Call Control modified DIAL request to USSD request.
      * {@hide}
      */
-    public static final int DIAL_MODIFIED_TO_USSD          = 46;
+    public static final int DIAL_MODIFIED_TO_USSD          = 45;
     /**
      * Stk Call Control modified DIAL request to SS request.
      * {@hide}
      */
-    public static final int DIAL_MODIFIED_TO_SS            = 47;
+    public static final int DIAL_MODIFIED_TO_SS            = 46;
     /**
      * Stk Call Control modified DIAL request to DIAL with modified data.
      * {@hide}
@@ -240,8 +235,6 @@ public class DisconnectCause {
     // NextId: 93
     //*********************************************************************************************
 
-    /** Smallest valid value for call disconnect codes. */
-    public static final int MINIMUM_VALID_VALUE = NOT_DISCONNECTED;
 
     /** Largest valid value for call disconnect codes. */
     public static final int MAXIMUM_VALID_VALUE = IMS_MERGED_SUCCESSFULLY;

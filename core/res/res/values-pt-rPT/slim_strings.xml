@@ -34,12 +34,6 @@
   <string name="tethered_notification_one_device_message"><xliff:g id="count">%1$s</xliff:g> dispositivo conectado</string>
   <string name="tethered_notification_multi_device_message"><xliff:g id="count">%1$s</xliff:g> dispositivos conectados</string>
   <string name="storage_uicc">Armazenamento UICC</string>
-  <string name="stk_cc_ussd_to_dial">Pedido USSD é modificado para pedido DIAL.</string>
-  <string name="stk_cc_ussd_to_ss">Pedido USSD é modificado para pedido SS.</string>
-  <string name="stk_cc_ussd_to_ussd">Pedido USSD é modificado para novo pedido USSD.</string>
-  <string name="stk_cc_ss_to_dial">Pedido USSD é modificado para pedido DIAL.</string>
-  <string name="stk_cc_ss_to_ussd">Pedido SS é modificado para pedido USSD.</string>
-  <string name="stk_cc_ss_to_ss">Pedido SS é modificado para novo pedido SS.</string>
   <string name="reboot_system" product="tablet">Reiniciar tablet</string>
   <string name="reboot_system" product="default">Reiniciar telemóvel</string>
   <string name="reboot_reboot">Reiniciar</string>

@@ -582,7 +582,7 @@ public class MediaFocusControl implements OnFinished {
         // this is equivalent to IN_VOICE_COMM_FOCUS_ID having the focus
         // Also focus request is granted to QCHAT client even when voice call is active. QCHAT
         // client will first check if any voice calls are in CALL_INACTIVE/CALL_HOLD state
-        if (!mFocusStack.isEmpty() && isLockedFocusOwner(mFocusStack.peek()hasSameClient(IN_VOICE_COMM_FOCUS_ID)) {
+        if (!mFocusStack.isEmpty() && isLockedFocusOwner(mFocusStack.peek().hasSameClient(IN_VOICE_COMM_FOCUS_ID))) {
             if (clientId.contains(CLIENT_ID_QCHAT))
                 return true;
             else

@@ -640,15 +640,12 @@ interface ISms {
      */
     boolean isSmsSimPickActivityNeeded(int subId);
 
-<<<<<<< HEAD
-=======
-    /*
+    /**
      * get user prefered SMS subId
      * @return subId id
      */
     int getPreferredSmsSubscription();
 
->>>>>>> tags/android-5.1.0_r1
     /**
      * Gets SMS format supported on IMS.  SMS over IMS format is
      * either 3GPP or 3GPP2.

@@ -1281,8 +1281,8 @@ public final class MediaSession {
         private static final int MSG_SET_BROWSED_PLAYER = 16;
         private static final int MSG_SET_PLAY_ITEM = 17;
         private static final int MSG_GET_NOW_PLAYING_ITEMS = 18;
-        private static final int MSG_ADJUST_VOLUME = 16;
-        private static final int MSG_SET_VOLUME = 17;
+        private static final int MSG_ADJUST_VOLUME = 19;
+        private static final int MSG_SET_VOLUME = 20;
 
         private MediaSession.Callback mCallback;
 
@@ -1371,6 +1371,7 @@ public final class MediaSession {
                 case MSG_GET_NOW_PLAYING_ITEMS:
                     Log.d(TAG, "MSG_GET_NOW_PLAYING_ITEMS received in CallbackMessageHandler");
                     mCallback.getNowPlayingEntries();
+                    break;
                 case MSG_ADJUST_VOLUME:
                     synchronized (mLock) {
                         vp = mVolumeProvider;

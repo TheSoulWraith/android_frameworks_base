@@ -2571,6 +2571,7 @@ public final class ViewRootImpl implements ViewParent,
             scheduleTraversals();
         }
     }
+  }
 
     /**
      * @return true if drawing was successful, false if an error occurred

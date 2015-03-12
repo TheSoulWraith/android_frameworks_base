@@ -274,7 +274,9 @@ public class NotificationManager
             return service.isSystemConditionProviderEnabled(path);
         } catch (RemoteException e) {
             return false;
-        }
+     
+   }
+    }
 
     /**
      * @hide

@@ -35,12 +35,6 @@
   <string name="tethered_notification_one_device_message"><xliff:g id="count"> a(z) %1$s </xliff:g> csatlakoztatott eszköz</string>
   <string name="tethered_notification_multi_device_message"><xliff:g id="count"> a(z) %1$s </xliff:g> csatlakoztatott eszköz</string>
   <string name="storage_uicc">UICC tároló</string>
-  <string name="stk_cc_ussd_to_dial">USSD kérés módosítva DIAL kérésre.</string>
-  <string name="stk_cc_ussd_to_ss">USSD kérés módosítva SS kérésre.</string>
-  <string name="stk_cc_ussd_to_ussd">USSD kérés módosítva új USSD kérésre.</string>
-  <string name="stk_cc_ss_to_dial">SS kérés módosítva DIAL kérésre.</string>
-  <string name="stk_cc_ss_to_ussd">SS kérés módosítva USSD kérésre.</string>
-  <string name="stk_cc_ss_to_ss">SS kérés módosítva új SS kérésre.</string>
   <string name="reboot_system" product="tablet">Tablet újraindítása</string>
   <string name="reboot_system" product="default">Telefon újraindítása</string>
   <string name="reboot_reboot">Újraindítás</string>

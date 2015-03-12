@@ -670,8 +670,6 @@
   <java-symbol type="string" name="lock_to_app_description_accessible" />
   <java-symbol type="string" name="lock_to_app_negative" />
   <java-symbol type="string" name="lock_to_app_positive" />
-  <java-symbol type="layout" name="lock_to_app_checkbox" />
-  <java-symbol type="id" name="lock_to_app_checkbox" />
   <java-symbol type="string" name="lock_to_app_start" />
   <java-symbol type="string" name="lock_to_app_exit" />
   <java-symbol type="string" name="lock_to_app_unlock_pin" />
@@ -1784,6 +1782,7 @@
   <java-symbol type="color" name="notification_media_primary_color" />
   <java-symbol type="color" name="notification_media_secondary_color" />
   <java-symbol type="id" name="media_actions" />
+  <java-symbol type="dimen" name="config_mediaMetadataBitmapMaxSize" />
 
     <!-- From SystemUI -->
   <java-symbol type="anim" name="push_down_in" />
@@ -1937,7 +1936,6 @@
   <java-symbol type="id" name="time_header" />
   <java-symbol type="id" name="hours" />
   <java-symbol type="id" name="minutes" />
-  <java-symbol type="id" name="ampm_label" />
   <java-symbol type="id" name="radial_picker" />
   <java-symbol type="id" name="separator" />
   <java-symbol type="id" name="date_picker_header" />
@@ -2075,6 +2073,10 @@
   <java-symbol type="bool" name="config_switch_phone_on_voice_reg_state_change" />
   <java-symbol type="string" name="whichHomeApplicationNamed" />
   <java-symbol type="bool" name="config_sms_force_7bit_encoding" />
+  <java-symbol type="id" name="scrollIndicatorUp" />
+  <java-symbol type="id" name="scrollIndicatorDown" />
+  <java-symbol type="bool" name="config_defaultWindowFeatureOptionsPanel" />
+  <java-symbol type="bool" name="config_defaultWindowFeatureContextMenu" />
   <java-symbol type="array" name="config_sms_convert_destination_number_support" />
   <java-symbol type="string" name="prohibit_manual_network_selection_in_gobal_mode" />
   <java-symbol type="id" name="profile_button" />

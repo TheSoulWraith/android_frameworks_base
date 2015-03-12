@@ -189,10 +189,6 @@ public class ImsCallProfile implements Parcelable {
     public static final String EXTRA_DISPLAY_TEXT = "DisplayText";
     public static final String EXTRA_ADDITIONAL_CALL_INFO = "AdditionalCallInfo";
 
-    // Extra string for internal use only. OEMs should not use
-    // this for packing extras.
-    public static final String EXTRA_OEM_EXTRAS = "OemCallExtras";
-
     public int mServiceType;
     public int mCallType;
     public int mRestrictCause = CALL_RESTRICT_CAUSE_NONE;

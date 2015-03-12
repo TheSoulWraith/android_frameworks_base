@@ -35,12 +35,6 @@
   <string name="tethered_notification_one_device_message"><xliff:g id="count">%1$s</xliff:g> подключенное устройство</string>
   <string name="tethered_notification_multi_device_message"><xliff:g id="count"> %1$s </xliff:g> подключенных устройств</string>
   <string name="storage_uicc">Хранилище UICC</string>
-  <string name="stk_cc_ussd_to_dial">USSD-запрос преобразован в DIAL-запрос.</string>
-  <string name="stk_cc_ussd_to_ss">USSD-запрос преобразован в SS-запрос.</string>
-  <string name="stk_cc_ussd_to_ussd">USSD-запрос преобразован в новый USSD-запрос.</string>
-  <string name="stk_cc_ss_to_dial">SS-запрос преобразован в DIAL-запрос.</string>
-  <string name="stk_cc_ss_to_ussd">SS-запрос преобразован в USSD-запрос.</string>
-  <string name="stk_cc_ss_to_ss">SS-запрос преобразован в новый SS-запрос.</string>
   <string name="reboot_system" product="tablet">Перезагрузить планшет</string>
   <string name="reboot_system" product="default">Перезагрузить телефон</string>
   <string name="reboot_reboot">Перезагрузка</string>

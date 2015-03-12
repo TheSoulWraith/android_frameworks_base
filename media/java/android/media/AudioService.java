@@ -4672,7 +4672,9 @@ public class AudioService extends IAudioService.Stub {
                     mVolumeKeysControlMediaStream = Settings.System.getIntForUser(mContentResolver,
                             Settings.System.VOLUME_KEYS_CONTROL_MEDIA_STREAM, 0,
                             UserHandle.USER_CURRENT) == 1;
-                } else if (updateRingerModeAffectedStreams()) {
+					 } else if (uri.equals(Settings.System.getUriFor(
+                    Settings.System.MODE_RINGER_STREAMS_AFFECTED))) {
+                    if (updateRingerModeAffectedStreams()) {
                     /*
                      * Ensure all stream types that should be affected by ringer mode
                      * are in the proper state.
@@ -4685,7 +4687,8 @@ public class AudioService extends IAudioService.Stub {
                 }
             }
         }
-    }
+	}
+		
 
     // must be called synchronized on mConnectedDevices
     private void makeA2dpDeviceAvailable(String address) {
@@ -6232,4 +6235,5 @@ public class AudioService extends IAudioService.Stub {
     private HashMap<IBinder, AudioPolicyProxy> mAudioPolicies =
             new HashMap<IBinder, AudioPolicyProxy>();
     private int mAudioPolicyCounter = 0; // always accessed synchronized on mAudioPolicies
-}
+
+	}

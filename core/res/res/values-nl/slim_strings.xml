@@ -34,12 +34,6 @@
   <string name="tethered_notification_one_device_message"><xliff:g id="count">%1$s</xliff:g> aangesloten apparaat</string>
   <string name="tethered_notification_multi_device_message"><xliff:g id="count">%1$s</xliff:g> aangesloten apparaten</string>
   <string name="storage_uicc">UICC-opslag</string>
-  <string name="stk_cc_ussd_to_dial">USSD-verzoek is veranderd naar DIAL-verzoek.</string>
-  <string name="stk_cc_ussd_to_ss">USSD-verzoek is veranderd naar SS-verzoek.</string>
-  <string name="stk_cc_ussd_to_ussd">USSD-verzoek is veranderd naar nieuw USSD-verzoek.</string>
-  <string name="stk_cc_ss_to_dial">SS-verzoek is veranderd naar DIAL-verzoek.</string>
-  <string name="stk_cc_ss_to_ussd">SS-verzoek is veranderd naar USSD-verzoek.</string>
-  <string name="stk_cc_ss_to_ss">SS-verzoek is veranderd naar nieuw SS-verzoek.</string>
   <string name="reboot_system" product="tablet">Herstart tablet</string>
   <string name="reboot_system" product="default">Herstart telefoon</string>
   <string name="reboot_reboot">Herstart</string>

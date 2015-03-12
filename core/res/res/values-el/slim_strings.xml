@@ -35,12 +35,6 @@
   <string name="tethered_notification_one_device_message"><xliff:g id="count"> %1$s </xliff:g>συνδεδεμένη συσκευή</string>
   <string name="tethered_notification_multi_device_message"><xliff:g id="count"> %1$s </xliff:g>συνδεδεμένη συσκευή</string>
   <string name="storage_uicc">Χώρος αποθήκευσης UICC</string>
-  <string name="stk_cc_ussd_to_dial">Η αίτηση USSD τροποποιήθηκε σε αίτηση DIAL.</string>
-  <string name="stk_cc_ussd_to_ss">Η αίτηση USSD τροποποιήθηκε σε αίτηση SS.</string>
-  <string name="stk_cc_ussd_to_ussd">Η αίτηση USSD τροποποιήθηκε σε νέα αίτηση USSD.</string>
-  <string name="stk_cc_ss_to_dial">Η αίτηση SS τροποποιήθηκε σε αίτηση DIAL.</string>
-  <string name="stk_cc_ss_to_ussd">Η αίτηση SS τροποποιήθηκε σε αίτηση USSD.</string>
-  <string name="stk_cc_ss_to_ss">Η αίτηση SS τροποποιήθηκε σε νέα αίτηση SS.</string>
   <string name="reboot_system" product="tablet">Επανεκκίνηση tablet</string>
   <string name="reboot_system" product="default">Επανεκκίνηση τηλεφώνου</string>
   <string name="reboot_reboot">Επανεκκίνηση</string>

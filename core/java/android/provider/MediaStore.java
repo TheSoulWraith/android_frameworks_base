@@ -713,18 +713,6 @@ public final class MediaStore {
                     c = cr.query(uri, PROJECTION, null, null, null);
                     if (c == null || !c.moveToFirst()) {
                         return null;
-                    if (filePath == null) {
-                        if (c != null) c.close();
-                        c = cr.query(uri, PROJECTION, null, null, null);
-                        if (c == null || !c.moveToFirst()) {
-                            return null;
-                        }
-                        filePath = c.getString(1);
-                        // this DB query can return null under some synchronization issue,
-                        // returning NULL bitmap in such cases.
-                        if (filePath == null) {
-                            return null;
-                        }
                     }
                     String filePath = c.getString(1);
                     if (filePath != null) {
